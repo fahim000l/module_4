@@ -1,6 +1,7 @@
 body {
 
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
     color: orangered;
 }
 
-section {
+.flexing {
     display: flex;
 }
 
@@ -26,12 +27,20 @@ section {
 
 .button {
     text-decoration: none;
+    color: white;
     background-image: radial-gradient(orange, tomato);
     padding: 10px 20px;
     border-radius: 10px;
+
 }
 
-.section_1 {
-    background-image: linear-gradient();
-    margin: 0;
+#section_1 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#section_2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
