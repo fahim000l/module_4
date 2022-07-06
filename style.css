@@ -44,3 +44,31 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+#section_3 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.shadowing_and_adjusting {
+    box-shadow: 10px 10px 40px #969696;
+    margin: 50px 50px;
+    border-radius: 50px;
+}
+
+#section_3_div_2 {
+    border-top: 20px solid tomato;
+}
+
+#section_3_div_3 {
+    border-top: 20px solid blue;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
